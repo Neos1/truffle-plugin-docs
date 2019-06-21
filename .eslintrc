@@ -1,0 +1,8 @@
+{
+    "extends": "airbnb-base",
+    "rules": {
+        "linebreak-style": [1, "unix"],
+        "indent": ["error", 4, {"SwitchCase": 1}],
+        "no-underscore-dangle": 0
+    }
+}
