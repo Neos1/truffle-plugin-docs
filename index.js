@@ -1,4 +1,4 @@
-const { package: { packageVersion } } = require('./package.json');
+const { version: packageVersion } = require('./package.json');
 const generateDocs = require('./lib/generate-docs');
 const { DEFAULT_ARGV } = require('./lib/constants');
 
@@ -35,7 +35,7 @@ module.exports = async (config) => {
     return generateDocs({
         src,
         dest: dest || d || DEFAULT_ARGV.DEST,
-        exclude: exclude || e || DEFAULT_ARGV.EXCLUDE,
-        include: include || i || DEFAULT_ARGV.INCLUDE,
+        exclude: (exclude || e || DEFAULT_ARGV.EXCLUDE).split(/,\s?/),
+        include: (include || i || DEFAULT_ARGV.INCLUDE).split(/,\s?/),
     });
 };

@@ -1,6 +1,6 @@
 {
   "name": "truffle-plugin-docs",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "generates simple markdown documentation for solidity contracts from truffle build .json files",
   "main": "index.js",
   "scripts": {
