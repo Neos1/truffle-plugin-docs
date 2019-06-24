@@ -4,5 +4,9 @@
         "linebreak-style": [1, "unix"],
         "indent": ["error", 4, {"SwitchCase": 1}],
         "no-underscore-dangle": 0
-    }
+    },
+    "env": {
+        "jest/globals": true
+    },
+    "plugins": ["jest"]
 }

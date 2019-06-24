@@ -4,7 +4,7 @@
   "description": "generates simple markdown documentation for solidity contracts from truffle build .json files",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "masteralx",
   "license": "ISC",
@@ -17,7 +17,9 @@
   "devDependencies": {
     "eslint": "^4.19.1",
     "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.17.3"
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-jest": "^22.7.1",
+    "jest": "^24.8.0"
   },
   "directories": {
     "lib": "lib"
