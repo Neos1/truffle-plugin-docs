@@ -35,7 +35,7 @@ module.exports = async (config) => {
     return generateDocs({
         src,
         dest: dest || d || DEFAULT_ARGV.DEST,
-        exclude: (exclude || e || DEFAULT_ARGV.EXCLUDE).split(/,\s?/),
-        include: (include || i || DEFAULT_ARGV.INCLUDE).split(/,\s?/),
+        exclude: (exclude || e || DEFAULT_ARGV.EXCLUDE).split(/,\s?/).filter(Boolean),
+        include: (include || i || DEFAULT_ARGV.INCLUDE).split(/,\s?/).filter(Boolean),
     });
 };
