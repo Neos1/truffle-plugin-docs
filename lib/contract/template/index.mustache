@@ -1,4 +1,3 @@
-const template = `
 # {{contractName}}
 {{#title}}
 ### {{title}}
@@ -64,7 +63,7 @@ Params:
 {{#inputs.length}}
 Params:
 {{#inputs}}
-{{order}}. **{{name}}{{^name}}input_{{index}}{{/name}}** *of type \`{{type}}\`*{{#description}}- {{description}}{{/description}}
+{{> input}}
 {{/inputs}}
 {{/inputs.length}}
 
@@ -82,6 +81,3 @@ Returns:
 {{/methods.length}}
 
 [Back to the top ↑](#{{link}})
-`;
-
-module.exports = template;
