@@ -1,5 +1,5 @@
 {
-  "contractName": "TestWithNoComments",
+  "contractName": "TestWithComments",
   "abi": [
     {
       "constant": true,
@@ -46,17 +46,17 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.0+commit.1d4f565a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[{\"name\":\"_newTest\",\"type\":\"uint256\"}],\"name\":\"setTest\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"test\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"name\":\"_test\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/C/projects/TRUFFLE/truffle-plugin-docs-contracts/contracts/TestWithNoComments.sol\":\"TestWithNoComments\"},\"evmVersion\":\"byzantium\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/projects/TRUFFLE/truffle-plugin-docs-contracts/contracts/TestWithNoComments.sol\":{\"keccak256\":\"0x40115d0bfbe3787a37cb44beb3913d2a2da360d9a0b5dd7f028ebcdcef0f8e11\",\"urls\":[\"bzzr://581146aabf947e8504c8ecaa8756033b23c9ba5367bcce22d6c92a7a2e7963e2\"]}},\"version\":1}",
-  "bytecode": "0x608060405234801561001057600080fd5b506040516020806101288339810180604052602081101561003057600080fd5b505160005560e5806100436000396000f3fe60806040526004361060485763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416636ca1f9338114604d578063f8a8fd6d146087575b600080fd5b348015605857600080fd5b50607360048036036020811015606d57600080fd5b503560ab565b604080519115158252519081900360200190f35b348015609257600080fd5b50609960b3565b60408051918252519081900360200190f35b600055600190565b6000548156fea165627a7a723058207e0886bb1847613aa081ff9c267c7d295d80d5a808dac5e233d49fda713177ad0029",
-  "deployedBytecode": "0x60806040526004361060485763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416636ca1f9338114604d578063f8a8fd6d146087575b600080fd5b348015605857600080fd5b50607360048036036020811015606d57600080fd5b503560ab565b604080519115158252519081900360200190f35b348015609257600080fd5b50609960b3565b60408051918252519081900360200190f35b600055600190565b6000548156fea165627a7a723058207e0886bb1847613aa081ff9c267c7d295d80d5a808dac5e233d49fda713177ad0029",
-  "sourceMap": "36:251:2:-;;;99:65;8:9:-1;5:2;;;30:1;27;20:12;5:2;99:65:2;;;;;;;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;-1:-1;99:65:2;144:4;:12;36:251;;;;;;",
-  "deployedSourceMap": "36:251:2:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;172:112;;8:9:-1;5:2;;;30:1;27;20:12;5:2;172:112:2;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;-1:-1;172:112:2;;;;;;;;;;;;;;;;;;;;;71:19;;8:9:-1;5:2;;;30:1;27;20:12;5:2;71:19:2;;;;;;;;;;;;;;;;;;;;172:112;222:4;239:15;272:4;;172:112::o;71:19::-;;;;:::o",
-  "source": "pragma solidity >=0.4.21 <0.6.0;\r\n\r\ncontract TestWithNoComments {\r\n    uint256 public test;\r\n\r\n    constructor(uint256 _test) public {\r\n        test = _test;\r\n    }\r\n\r\n    function setTest(uint256 _newTest) public returns(bool) {\r\n        test = _newTest;\r\n        return true;\r\n    }\r\n}\r\n",
-  "sourcePath": "C:/projects/TRUFFLE/truffle-plugin-docs-contracts/contracts/TestWithNoComments.sol",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.0+commit.1d4f565a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[{\"name\":\"_newTest\",\"type\":\"uint256\"}],\"name\":\"setTest\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"test\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"name\":\"_test\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"details\":\"Test contract dev\\r\",\"methods\":{\"constructor\":{\"params\":{\"_test\":\"initial test value\\r\"}},\"setTest(uint256)\":{\"details\":\"updates test value by provided\\r\",\"params\":{\"_newTest\":\"test value\\r\"},\"return\":\"true\\r\"}},\"title\":\"Test\\r\"},\"userdoc\":{\"methods\":{\"constructor\":\"set defaults\\r\",\"setTest(uint256)\":{\"notice\":\"updates test value\\r\"}},\"notice\":\"Test contract notice\\r\"}},\"settings\":{\"compilationTarget\":{\"/C/projects/TRUFFLE/truffle-plugin-docs-contracts/contracts/TestWithComments.sol\":\"TestWithComments\"},\"evmVersion\":\"byzantium\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/projects/TRUFFLE/truffle-plugin-docs-contracts/contracts/TestWithComments.sol\":{\"keccak256\":\"0xc595b2f63940a5f2a60c780c31c6558657b7241ab0984f003f6dc8bf50337179\",\"urls\":[\"bzzr://75d6ad90913f1d197e9b209c1418c9b52185f6267cdc09fc3c41b895a0450ab1\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b506040516020806101288339810180604052602081101561003057600080fd5b505160005560e5806100436000396000f3fe60806040526004361060485763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416636ca1f9338114604d578063f8a8fd6d146087575b600080fd5b348015605857600080fd5b50607360048036036020811015606d57600080fd5b503560ab565b604080519115158252519081900360200190f35b348015609257600080fd5b50609960b3565b60408051918252519081900360200190f35b600055600190565b6000548156fea165627a7a723058209e02bd2211a0f57d5cbe0ec180b09bcac4efcd93db65ed0892cb8642ea27f2d60029",
+  "deployedBytecode": "0x60806040526004361060485763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416636ca1f9338114604d578063f8a8fd6d146087575b600080fd5b348015605857600080fd5b50607360048036036020811015606d57600080fd5b503560ab565b604080519115158252519081900360200190f35b348015609257600080fd5b50609960b3565b60408051918252519081900360200190f35b600055600190565b6000548156fea165627a7a723058209e02bd2211a0f57d5cbe0ec180b09bcac4efcd93db65ed0892cb8642ea27f2d60029",
+  "sourceMap": "122:489:2:-;;;270:65;8:9:-1;5:2;;;30:1;27;20:12;5:2;270:65:2;;;;;;;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;-1:-1;270:65:2;315:4;:12;122:489;;;;;;",
+  "deployedSourceMap": "122:489:2:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;496:112;;8:9:-1;5:2;;;30:1;27;20:12;5:2;496:112:2;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;-1:-1;496:112:2;;;;;;;;;;;;;;;;;;;;;155:19;;8:9:-1;5:2;;;30:1;27;20:12;5:2;155:19:2;;;;;;;;;;;;;;;;;;;;496:112;546:4;563:15;596:4;;496:112::o;155:19::-;;;;:::o",
+  "source": "pragma solidity >=0.4.21 <0.6.0;\r\n\r\n/**\r\n * @title Test\r\n * @notice Test contract notice\r\n * @dev Test contract dev\r\n */\r\ncontract TestWithComments {\r\n    uint256 public test;\r\n\r\n    /**\r\n     * @notice set defaults\r\n     * @param _test initial test value\r\n     */\r\n    constructor(uint256 _test) public {\r\n        test = _test;\r\n    }\r\n\r\n    /**\r\n     * @notice updates test value\r\n     * @dev updates test value by provided\r\n     * @param _newTest test value\r\n     * @return true\r\n     */\r\n    function setTest(uint256 _newTest) public returns(bool) {\r\n        test = _newTest;\r\n        return true;\r\n    }\r\n}\r\n",
+  "sourcePath": "C:/projects/TRUFFLE/truffle-plugin-docs-contracts/contracts/TestWithComments.sol",
   "ast": {
-    "absolutePath": "/C/projects/TRUFFLE/truffle-plugin-docs-contracts/contracts/TestWithNoComments.sol",
+    "absolutePath": "/C/projects/TRUFFLE/truffle-plugin-docs-contracts/contracts/TestWithComments.sol",
     "exportedSymbols": {
-      "TestWithNoComments": [
+      "TestWithComments": [
         114
       ]
     },
@@ -81,13 +81,13 @@
         "baseContracts": [],
         "contractDependencies": [],
         "contractKind": "contract",
-        "documentation": null,
+        "documentation": "@title Test\r\n@notice Test contract notice\r\n@dev Test contract dev\r",
         "fullyImplemented": true,
         "id": 114,
         "linearizedBaseContracts": [
           114
         ],
-        "name": "TestWithNoComments",
+        "name": "TestWithComments",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
@@ -96,7 +96,7 @@
             "name": "test",
             "nodeType": "VariableDeclaration",
             "scope": 114,
-            "src": "71:19:2",
+            "src": "155:19:2",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -107,7 +107,7 @@
               "id": 88,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
-              "src": "71:7:2",
+              "src": "155:7:2",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint256",
                 "typeString": "uint256"
@@ -120,7 +120,7 @@
             "body": {
               "id": 98,
               "nodeType": "Block",
-              "src": "133:31:2",
+              "src": "304:31:2",
               "statements": [
                 {
                   "expression": {
@@ -137,7 +137,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 89,
-                      "src": "144:4:2",
+                      "src": "315:4:2",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -152,13 +152,13 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 91,
-                      "src": "151:5:2",
+                      "src": "322:5:2",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       }
                     },
-                    "src": "144:12:2",
+                    "src": "315:12:2",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -166,11 +166,11 @@
                   },
                   "id": 97,
                   "nodeType": "ExpressionStatement",
-                  "src": "144:12:2"
+                  "src": "315:12:2"
                 }
               ]
             },
-            "documentation": null,
+            "documentation": "@notice set defaults\r\n@param _test initial test value\r",
             "id": 99,
             "implemented": true,
             "kind": "constructor",
@@ -187,7 +187,7 @@
                   "name": "_test",
                   "nodeType": "VariableDeclaration",
                   "scope": 99,
-                  "src": "111:13:2",
+                  "src": "282:13:2",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -198,7 +198,7 @@
                     "id": 90,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "111:7:2",
+                    "src": "282:7:2",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -208,16 +208,16 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "110:15:2"
+              "src": "281:15:2"
             },
             "returnParameters": {
               "id": 93,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "133:0:2"
+              "src": "304:0:2"
             },
             "scope": 114,
-            "src": "99:65:2",
+            "src": "270:65:2",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
@@ -226,7 +226,7 @@
             "body": {
               "id": 112,
               "nodeType": "Block",
-              "src": "228:56:2",
+              "src": "552:56:2",
               "statements": [
                 {
                   "expression": {
@@ -243,7 +243,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 89,
-                      "src": "239:4:2",
+                      "src": "563:4:2",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -258,13 +258,13 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 101,
-                      "src": "246:8:2",
+                      "src": "570:8:2",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       }
                     },
-                    "src": "239:15:2",
+                    "src": "563:15:2",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -272,7 +272,7 @@
                   },
                   "id": 109,
                   "nodeType": "ExpressionStatement",
-                  "src": "239:15:2"
+                  "src": "563:15:2"
                 },
                 {
                   "expression": {
@@ -285,7 +285,7 @@
                     "kind": "bool",
                     "lValueRequested": false,
                     "nodeType": "Literal",
-                    "src": "272:4:2",
+                    "src": "596:4:2",
                     "subdenomination": null,
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
@@ -296,11 +296,11 @@
                   "functionReturnParameters": 105,
                   "id": 111,
                   "nodeType": "Return",
-                  "src": "265:11:2"
+                  "src": "589:11:2"
                 }
               ]
             },
-            "documentation": null,
+            "documentation": "@notice updates test value\r\n@dev updates test value by provided\r\n@param _newTest test value\r\n@return true\r",
             "id": 113,
             "implemented": true,
             "kind": "function",
@@ -317,7 +317,7 @@
                   "name": "_newTest",
                   "nodeType": "VariableDeclaration",
                   "scope": 113,
-                  "src": "189:16:2",
+                  "src": "513:16:2",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -328,7 +328,7 @@
                     "id": 100,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "189:7:2",
+                    "src": "513:7:2",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -338,7 +338,7 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "188:18:2"
+              "src": "512:18:2"
             },
             "returnParameters": {
               "id": 105,
@@ -350,7 +350,7 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "scope": 113,
-                  "src": "222:4:2",
+                  "src": "546:4:2",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -361,7 +361,7 @@
                     "id": 103,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "222:4:2",
+                    "src": "546:4:2",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -371,25 +371,25 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "221:6:2"
+              "src": "545:6:2"
             },
             "scope": 114,
-            "src": "172:112:2",
+            "src": "496:112:2",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
         "scope": 115,
-        "src": "36:251:2"
+        "src": "122:489:2"
       }
     ],
-    "src": "0:289:2"
+    "src": "0:613:2"
   },
   "legacyAST": {
-    "absolutePath": "/C/projects/TRUFFLE/truffle-plugin-docs-contracts/contracts/TestWithNoComments.sol",
+    "absolutePath": "/C/projects/TRUFFLE/truffle-plugin-docs-contracts/contracts/TestWithComments.sol",
     "exportedSymbols": {
-      "TestWithNoComments": [
+      "TestWithComments": [
         114
       ]
     },
@@ -414,13 +414,13 @@
         "baseContracts": [],
         "contractDependencies": [],
         "contractKind": "contract",
-        "documentation": null,
+        "documentation": "@title Test\r\n@notice Test contract notice\r\n@dev Test contract dev\r",
         "fullyImplemented": true,
         "id": 114,
         "linearizedBaseContracts": [
           114
         ],
-        "name": "TestWithNoComments",
+        "name": "TestWithComments",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
@@ -429,7 +429,7 @@
             "name": "test",
             "nodeType": "VariableDeclaration",
             "scope": 114,
-            "src": "71:19:2",
+            "src": "155:19:2",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -440,7 +440,7 @@
               "id": 88,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
-              "src": "71:7:2",
+              "src": "155:7:2",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint256",
                 "typeString": "uint256"
@@ -453,7 +453,7 @@
             "body": {
               "id": 98,
               "nodeType": "Block",
-              "src": "133:31:2",
+              "src": "304:31:2",
               "statements": [
                 {
                   "expression": {
@@ -470,7 +470,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 89,
-                      "src": "144:4:2",
+                      "src": "315:4:2",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -485,13 +485,13 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 91,
-                      "src": "151:5:2",
+                      "src": "322:5:2",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       }
                     },
-                    "src": "144:12:2",
+                    "src": "315:12:2",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -499,11 +499,11 @@
                   },
                   "id": 97,
                   "nodeType": "ExpressionStatement",
-                  "src": "144:12:2"
+                  "src": "315:12:2"
                 }
               ]
             },
-            "documentation": null,
+            "documentation": "@notice set defaults\r\n@param _test initial test value\r",
             "id": 99,
             "implemented": true,
             "kind": "constructor",
@@ -520,7 +520,7 @@
                   "name": "_test",
                   "nodeType": "VariableDeclaration",
                   "scope": 99,
-                  "src": "111:13:2",
+                  "src": "282:13:2",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -531,7 +531,7 @@
                     "id": 90,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "111:7:2",
+                    "src": "282:7:2",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -541,16 +541,16 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "110:15:2"
+              "src": "281:15:2"
             },
             "returnParameters": {
               "id": 93,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "133:0:2"
+              "src": "304:0:2"
             },
             "scope": 114,
-            "src": "99:65:2",
+            "src": "270:65:2",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
@@ -559,7 +559,7 @@
             "body": {
               "id": 112,
               "nodeType": "Block",
-              "src": "228:56:2",
+              "src": "552:56:2",
               "statements": [
                 {
                   "expression": {
@@ -576,7 +576,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 89,
-                      "src": "239:4:2",
+                      "src": "563:4:2",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -591,13 +591,13 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 101,
-                      "src": "246:8:2",
+                      "src": "570:8:2",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       }
                     },
-                    "src": "239:15:2",
+                    "src": "563:15:2",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -605,7 +605,7 @@
                   },
                   "id": 109,
                   "nodeType": "ExpressionStatement",
-                  "src": "239:15:2"
+                  "src": "563:15:2"
                 },
                 {
                   "expression": {
@@ -618,7 +618,7 @@
                     "kind": "bool",
                     "lValueRequested": false,
                     "nodeType": "Literal",
-                    "src": "272:4:2",
+                    "src": "596:4:2",
                     "subdenomination": null,
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
@@ -629,11 +629,11 @@
                   "functionReturnParameters": 105,
                   "id": 111,
                   "nodeType": "Return",
-                  "src": "265:11:2"
+                  "src": "589:11:2"
                 }
               ]
             },
-            "documentation": null,
+            "documentation": "@notice updates test value\r\n@dev updates test value by provided\r\n@param _newTest test value\r\n@return true\r",
             "id": 113,
             "implemented": true,
             "kind": "function",
@@ -650,7 +650,7 @@
                   "name": "_newTest",
                   "nodeType": "VariableDeclaration",
                   "scope": 113,
-                  "src": "189:16:2",
+                  "src": "513:16:2",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -661,7 +661,7 @@
                     "id": 100,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "189:7:2",
+                    "src": "513:7:2",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -671,7 +671,7 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "188:18:2"
+              "src": "512:18:2"
             },
             "returnParameters": {
               "id": 105,
@@ -683,7 +683,7 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "scope": 113,
-                  "src": "222:4:2",
+                  "src": "546:4:2",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -694,7 +694,7 @@
                     "id": 103,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "222:4:2",
+                    "src": "546:4:2",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -704,20 +704,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "221:6:2"
+              "src": "545:6:2"
             },
             "scope": 114,
-            "src": "172:112:2",
+            "src": "496:112:2",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
         "scope": 115,
-        "src": "36:251:2"
+        "src": "122:489:2"
       }
     ],
-    "src": "0:289:2"
+    "src": "0:613:2"
   },
   "compiler": {
     "name": "solc",
@@ -725,11 +725,32 @@
   },
   "networks": {},
   "schemaVersion": "3.0.9",
-  "updatedAt": "2019-06-24T10:29:56.418Z",
+  "updatedAt": "2019-06-25T04:52:52.777Z",
   "devdoc": {
-    "methods": {}
+    "details": "Test contract dev\r",
+    "methods": {
+      "constructor": {
+        "params": {
+          "_test": "initial test value\r"
+        }
+      },
+      "setTest(uint256)": {
+        "details": "updates test value by provided\r",
+        "params": {
+          "_newTest": "test value\r"
+        },
+        "return": "true\r"
+      }
+    },
+    "title": "Test\r"
   },
   "userdoc": {
-    "methods": {}
+    "methods": {
+      "constructor": "set defaults\r",
+      "setTest(uint256)": {
+        "notice": "updates test value\r"
+      }
+    },
+    "notice": "Test contract notice\r"
   }
 }
