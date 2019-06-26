@@ -1,13 +1,26 @@
 {
   "name": "truffle-plugin-docs",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "generates simple markdown documentation for solidity contracts from truffle build .json files",
   "main": "index.js",
   "scripts": {
     "test": "jest"
   },
-  "author": "masteralx",
-  "license": "ISC",
+  "author": "masteralx <master@neos1.com>",
+  "keywords": [
+    "solidity",
+    "documentation",
+    "docs",
+    "markdown",
+    "generator",
+    "truffle",
+    "plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Neos1/truffle-plugin-docs"
+  },
+  "license": "MIT",
   "dependencies": {
     "@hapi/joi": "^15.0.3",
     "ethereumjs-util": "^6.1.0",
@@ -20,6 +33,9 @@
     "eslint-plugin-import": "^2.17.3",
     "eslint-plugin-jest": "^22.7.1",
     "jest": "^24.8.0"
+  },
+  "release": {
+    "branch": "master"
   },
   "directories": {
     "lib": "lib"
