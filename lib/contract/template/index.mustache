@@ -3,18 +3,26 @@
 ### {{title}}
 {{/title}}
 {{#notice}}
-> {{notice}}
+{{notice}}
 {{/notice}}
+
 {{#details}}
 > {{details}}
 {{/details}}
 
 {{#constructor}}
 ## {{name}}
+{{#notice}}
+{{notice}}
+{{/notice}}
+
+{{#details}}
+> {{details}}
+{{/details}}
 {{#inputs.length}}
 Params:
 {{#inputs}}
-{{order}}. **{{name}}{{^name}}input_{{index}}{{/name}}** *of type \`{{type}}\`*{{#description}}- {{description}}{{/description}}
+{{> input}}
 {{/inputs}}
 {{/inputs.length}}
 {{/constructor}}
@@ -35,7 +43,7 @@ Params:
 {{#inputs.length}}
 Params:
 {{#inputs}}
-{{order}}. **{{name}}** *of type \`{{type}}\`*
+{{> input}}
 {{/inputs}}
 {{/inputs.length}}
 --- 
@@ -49,7 +57,7 @@ Params:
 #### {{signature}}
 
 {{#notice}}
-> {{notice}}
+{{notice}}
 {{/notice}}
 
 {{#details}}
@@ -73,9 +81,10 @@ Returns:
 > {{result}}
 {{/result}}
 {{#outputs}}
-{{order}}. **{{name}}{{^name}}output_{{index}}{{/name}}** *of type \`{{type}}\`*
+{{> output}}
 {{/outputs}}
 {{/outputs.length}}
+
 --- 
 {{/methods}}
 {{/methods.length}}

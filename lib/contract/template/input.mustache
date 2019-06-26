@@ -1,5 +1,7 @@
 
-{{#stack}}&nbsp;&nbsp;&nbsp;&nbsp;{{/stack}}{{{order}}}\. **{{name}}{{^name}}input_{{index}}{{/name}}** *of type \`{{type}}\`*{{#description}}- {{description}}{{/description}}
+{{#stack}}&nbsp;&nbsp;&nbsp;&nbsp;{{/stack}}
+{{{order}}}\. **{{name}}{{^name}}input_{{index}}{{/name}}** *of type \`{{type}}\`*
+{{#description}}\- {{description}}{{/description}}
 {{#components.length}}
 {{#components}}
 {{> input}}
