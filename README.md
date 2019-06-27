@@ -12,7 +12,7 @@ module.exports = {
   /* ... rest of truffle-config */
 
   plugins: [
-    "truffle-plugin-docs"
+    "@neos1/truffle-plugin-docs"
   ]
 }
 ```
