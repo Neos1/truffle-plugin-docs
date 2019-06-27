@@ -1,9 +1,10 @@
 # truffle-plugin-docs
+Generates simple markdown documentation for solidity contracts from truffle build .json files
 
 ## Usage
 1. Install the plugin from NPM.
 ```
-npm install --save-dev truffle-plugin-docs
+npm i --save-dev @neos1/truffle-plugin-docs
 ```
 2. Add a plugins section to your Truffle config.
 ```

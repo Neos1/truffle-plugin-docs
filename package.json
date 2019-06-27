@@ -1,6 +1,6 @@
 {
   "name": "@neos1/truffle-plugin-docs",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "generates simple markdown documentation for solidity contracts from truffle build .json files",
   "main": "index.js",
   "scripts": {
